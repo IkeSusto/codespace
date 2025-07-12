@@ -66,5 +66,5 @@
       }
     }
   },
-  "postCreateCommand": "sudo apt install -y fonts-ubuntu && sudo apt install -y pip && pip install --user -r requirements.txt"
+  "postCreateCommand": "sudo apt update -y && sudo apt install -y fonts-ubuntu && sudo apt install -y pip && pip install --user -r requirements.txt"
 }
