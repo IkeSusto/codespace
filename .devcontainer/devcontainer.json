@@ -5,14 +5,10 @@
     "codespaces": {
       "repositories": {
         "IkeSusto/*": {
-          "permissions": {
-            "issues": "write"
-          }
+          "permissions": "write-all"
         },
         "MagmaUSP/*": {
-          "permissions": {
-            "issues": "write"
-          }
+          "permissions": "write-all"
         }
       }
     }
