@@ -11,6 +11,50 @@
           "permissions": "write-all"
         }
       }
+    },
+    "vscode": {
+      "extensions": [
+        "dracula-theme.theme-dracula",
+        "miguelsolorio.symbols"
+      ],
+      "settings": {
+        "workbench.startupEditor": "newUntitledFile",
+        "editor.fontSize": 14,
+        "editor.lineHeight": 1.9,
+        "editor.rulers": [
+          80,
+          120
+        ],
+        "extensions.ignoreRecommendations": true,
+        "editor.suggestSelection": "first",
+        "explorer.confirmDelete": false,
+        "terminal.integrated.showExitAlert": false,
+        "editor.acceptSuggestionOnCommitCharacter": false,
+        "explorer.compactFolders": false,
+        "git.enableSmartCommit": true,
+        "editor.accessibilitySupport": "off",
+        "explorer.confirmDragAndDrop": false,
+        "terminal.integrated.fontSize": 13,
+        "editor.semanticHighlighting.enabled": false,
+        "editor.fontFamily": "Ubuntu Mono",
+        "editor.tabSize": 4,      
+        "files.exclude": {
+          "**\/.git": true,
+          ".vscode": true
+        },
+        "git.openRepositoryInParentFolders": "always",
+        "workbench.editor.empty.hint": "hidden",
+        "update.showReleaseNotes": false,
+        "workbench.activityBar.location": "top",
+        "editor.hideCursorInOverviewRuler": true,
+        "editor.minimap.enabled": false,
+        "explorer.sortOrder": "foldersNestsFiles",
+        "explorer.fileNesting.enabled": true,
+        "cSpell.userWords": [],
+        "workbench.statusBar.visible": false,
+        "workbench.colorTheme": "Dracula Theme"
+      }
     }
-  }
+  },
+  "postCreateCommand": "sudo apt install -y fonts-ubuntu && sudo apt install -y pip && pip install --user -r requirements.txt"
 }
