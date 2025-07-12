@@ -1,6 +1,16 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {},
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb"
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+	    "visibility": "public"
+	  }
+  },
   "customizations": {
     "codespaces": {
       "repositories": {
