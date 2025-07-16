@@ -25,7 +25,8 @@
     "vscode": {
       "extensions": [
         "dracula-theme.theme-dracula",
-        "miguelsolorio.symbols"
+        "miguelsolorio.symbols",
+        "AmazonWebServices.aws-toolkit-vscode"
       ],
       "settings": {
         "workbench.startupEditor": "newUntitledFile",
