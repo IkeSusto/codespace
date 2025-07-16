@@ -3,6 +3,5 @@ set -e
 
 sudo apt update -y
 sudo apt install -y fonts-ubuntu
-sudo apt install -y pip unzip
 pip install --user -r ./.pip/requirements.txt
 sudo ./.aws/setup/install
